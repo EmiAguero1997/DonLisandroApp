@@ -3,7 +3,6 @@ export default function Header(){
     return(
         <>
             <NavBar></NavBar>
-            <h1>Header</h1>
         </>
     )
 }
