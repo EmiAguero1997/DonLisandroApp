@@ -5,7 +5,9 @@ export default function Layout(props){
     return(
         <>
             <Header/>
-            {props.children}
+            {props.carousel}
+            {props.InicioCards}
+            {props.pampaSection}
             <Footer/>
         </>
     )
