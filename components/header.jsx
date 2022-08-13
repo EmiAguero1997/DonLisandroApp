@@ -1,7 +1,8 @@
+import NavBar from "./NavBar"
 export default function Header(){
     return(
         <>
-            {/* Aqui debe ir el navbar */}
+            <NavBar></NavBar>
             <h1>Header</h1>
         </>
     )

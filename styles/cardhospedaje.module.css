@@ -1,0 +1,66 @@
+.cardHospedajeContainer{
+    background-color: #c7ba9c;
+    display: grid;
+    grid-template-rows: 200px 100px;
+    width: 700px;
+    margin: 20px;
+}
+
+.topCardHospedajeContainer{
+}
+
+.cardHospedajeImg{
+    width: 700px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.botCardHospedajeContainer{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    column-gap: 10px;
+}
+
+.botCardHospedajeContainer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.botCardHospedajeContainer2{
+ height: 100px;
+}
+
+.botCardHospedajeIndex{
+    font-size: 27px;
+    color: #645D4F;
+}
+
+.botCardHospedajeDescription{
+    color: #645D4F;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.botCardHospedajeTitle{
+    color: #645D4F;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.botCardHospedajeContainer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.botCardHospedajeButton{
+    width: 70%;
+    height: 25%;
+    background-color: #645D4F;
+    border: none;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.50);
+}
