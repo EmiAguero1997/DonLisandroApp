@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
-import Card from '../components/Card'
+import PampaSection from "../components/pampasection";
 
 export default function Inicio(){
     return(
         <>
-            <Layout/>
+            <Layout children={<PampaSection/>}/> 
         </>
     )
 }
