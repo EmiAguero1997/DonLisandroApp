@@ -1,0 +1,10 @@
+.NavbarButtonsContainer
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: bisque;
+}

@@ -7,12 +7,13 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/images/logos/DON LISANDRO.png";
 import { Button } from "@material-ui/core";
+import styles from '../styles/NavBar.module.css'
 
 const NavBar = () => {
   return (
     <Box>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className={styles.NavbarButtonsContainer}>
           <Typography
             noWrap
             component="div"
