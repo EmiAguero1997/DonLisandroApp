@@ -6,7 +6,7 @@ export default function PampaSection(){
         <>
             <div className={styles.container}>
             <Image
-            src='/images/imagesWeb/BP17.jpg' alt="pampaSection" layout='fill' objectFit='cover'/>
+            src='/images/imagesWeb/BP17.jpg' alt="pampaSection" layout='fill' objectFit='cover' quality={100}/>
             </div>
             
         </>
