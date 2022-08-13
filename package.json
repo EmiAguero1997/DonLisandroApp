@@ -21,5 +21,17 @@
   "devDependencies": {
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiAguero1997/DonLisandroApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiAguero1997/DonLisandroApp/issues"
+  },
+  "homepage": "https://github.com/EmiAguero1997/DonLisandroApp#readme"
 }

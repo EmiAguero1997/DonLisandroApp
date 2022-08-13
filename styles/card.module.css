@@ -1,0 +1,47 @@
+.cardContainer{
+    display: grid;
+    grid-template-rows: 200px 300px;
+    width: 225px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.50);
+}
+
+.topContainer{
+    background-color: #FF373E;
+    position: relative;
+    padding: 10px;
+}
+.cardTitle{
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500;
+}
+
+.cardLogo{
+    width: 100px;
+    object-fit: cover;
+}
+
+.botContainer{
+    position: relative;
+}
+
+.cardImg{
+    height: 300px;
+    width: 225px;
+    object-fit: cover;
+}
+
+.cardOptionalInfo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-right: 20px;
+    bottom: 10px;
+    left: 20px
+}
+
+.cardBotLogo{
+    width: 60px;
+    object-fit: cover;
+}
