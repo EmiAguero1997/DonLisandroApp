@@ -1,0 +1,12 @@
+.svgButton {
+    cursor: pointer;
+    border-radius:100%;
+    background-color: #a69a82;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+.svgButton:hover{
+    background-color: #645D4F;
+}
