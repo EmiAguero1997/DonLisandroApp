@@ -1,14 +1,13 @@
 import Header from "./header";
 import Footer from "./footer";
+import { Children } from "react";
 
-export default function Layout(props){
-    return(
-        <>
-            <Header/>
-            {props.carousel}
-            {props.InicioCards}
-            {props.pampaSection}
-            <Footer/>
-        </>
-    )
+export default function Layout({ children }) {
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
 }
