@@ -1,0 +1,12 @@
+.backgroundColor{
+    background-color:#c7ba9b;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
