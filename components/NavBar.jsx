@@ -34,6 +34,9 @@ const NavBar = () => {
           <Button>
             <Link href="/beerpoint">beerpoint</Link>
           </Button>
+          <Button>
+            <Link href="/mapas">Donde estamos</Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
